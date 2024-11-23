@@ -2,7 +2,7 @@
 70 error Scope: all 4 workspace projects
 70 error Progress: resolved 1, reused 0, downloaded 0, added 0
 70 error /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks:
-70 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.16
+70 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.17
 70 error
 70 error This error happened while installing a direct dependency of /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
 70 error

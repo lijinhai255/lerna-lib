@@ -1,6 +1,6 @@
 {
   "name": "@yideng/hooks",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "main": "index.js",
   "scripts": {
     "test": "echo 1",
@@ -10,7 +10,5 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "@yideng/ui": "^1.2.16"
-  }
+  "dependencies": {}
 }

@@ -1,6 +1,6 @@
 {
   "name": "@yideng/yd-cli",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "公司内部的Quicktype CLI工具，用于生成类型定义",
   "bin": {
     "yd-gen": "./bin/cli.js"

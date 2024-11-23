@@ -1,17 +1,16 @@
 70 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
 70 error Scope: all 4 workspace projects
-70 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
 70 error Progress: resolved 1, reused 0, downloaded 0, added 0
 70 error /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks:
-70 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.15
+70 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.16
 70 error
 70 error This error happened while installing a direct dependency of /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
 70 error
 70 error The latest release of @yideng/ui is "1.2.13".
 70 error
 70 error If you need the full list of all 5 published versions run "$ pnpm view @yideng/ui versions".
-70 error     at makeError (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-70 error     at handlePromise (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+70 error     at makeError (/Users/lijinhai/.config/yarn/global/node_modules/execa/lib/error.js:59:11)
+70 error     at handlePromise (/Users/lijinhai/.config/yarn/global/node_modules/execa/index.js:114:26)
 70 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-70 error     at async VersionCommand.updatePackageVersions (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9866:11)
+70 error     at async VersionCommand.updatePackageVersions (/Users/lijinhai/.config/yarn/global/node_modules/lerna/dist/index.js:9857:11)
 70 error     at async Promise.all (index 0)

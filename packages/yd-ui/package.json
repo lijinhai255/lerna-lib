@@ -1,6 +1,6 @@
 {
   "name": "@yideng/ui",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "main": "src/index.js",
   "scripts": {
     "test": "echo 2",
@@ -22,6 +22,5 @@
     "@storybook/test": "^8.4.4",
     "prop-types": "^15.8.1",
     "storybook": "^8.4.4"
-  },
-  "gitHead": "8bf821653cb615aabc0afcb014a9fd603a8f213e"
+  }
 }

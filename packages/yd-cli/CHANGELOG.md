@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.15](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.15) (2024-11-23)
+
+
+### Bug Fixes
+
+* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))
+
+
+
+
+
 ## [1.2.14](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.14) (2024-11-23)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@yideng/yd-cli",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "公司内部的Quicktype CLI工具，用于生成类型定义",
   "bin": {
     "yd-gen": "./bin/cli.js"
@@ -22,6 +22,5 @@
     "ora": "^4.0.4",
     "quicktype-core": "^23.0.78",
     "shelljs": "^0.8.5"
-  },
-  "gitHead": "8bf821653cb615aabc0afcb014a9fd603a8f213e"
+  }
 }

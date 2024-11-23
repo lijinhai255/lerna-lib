@@ -1,18 +1,100 @@
-69 error Error: Command failed with exit code 1: corepack pnpm install --lockfile-only --ignore-scripts
-69 error Scope: all 4 workspace projects
-69 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-69 error Progress: resolved 1, reused 0, downloaded 0, added 0
-69 error Progress: resolved 7, reused 0, downloaded 0, added 0
-69 error /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks:
-69 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.7
-69 error
-69 error This error happened while installing a direct dependency of /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
-69 error
-69 error The latest release of @yideng/ui is "1.2.6".
-69 error
-69 error If you need the full list of all 4 published versions run "$ pnpm view @yideng/ui versions".
-69 error     at makeError (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-69 error     at handlePromise (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-69 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-69 error     at async VersionCommand.updatePackageVersions (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9866:11)
-69 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   push: false,
+0 silly argv   'git-tag-version': false,
+0 silly argv   gitTagVersion: false,
+0 silly argv   lernaVersion: '8.1.8',
+0 silly argv   '$0': '/usr/local/bin/lerna'
+0 silly argv }
+1 notice cli v8.1.8
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*","apps/*"]
+3 verbose rootPath /Users/lijinhai/Desktop/my_project/new-libs
+4 info versioning independent
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly getCurrentBranch
+8 verbose currentBranch main
+9 silly hasTags
+10 verbose hasTags true
+11 silly git-describe.sync "@yideng/hooks@1.2.1-8-g8f4f91e-dirty" => {"lastTagName":"@yideng/hooks@1.2.1","lastVersion":"1.2.1","refCount":"8","sha":"8f4f91e","isDirty":true}
+12 info Looking for changed packages since @yideng/hooks@1.2.1
+13 info ignoring diff in paths matching [ '**/node_modules/**', '**/__snapshots__/**' ]
+14 silly checking diff packages/yd-cli
+15 silly found diff in packages/yd-cli/CHANGELOG.md
+15 silly found diff in packages/yd-cli/package.json
+16 verbose filtered diff [ 'packages/yd-cli/CHANGELOG.md', 'packages/yd-cli/package.json' ]
+17 silly checking diff packages/yd-hooks
+18 silly found diff in packages/yd-hooks/CHANGELOG.md
+18 silly found diff in packages/yd-hooks/package.json
+19 verbose filtered diff [ 'packages/yd-hooks/CHANGELOG.md', 'packages/yd-hooks/package.json' ]
+20 silly checking diff packages/yd-ui
+21 silly found diff in packages/yd-ui/CHANGELOG.md
+21 silly found diff in packages/yd-ui/package.json
+22 verbose filtered diff [ 'packages/yd-ui/CHANGELOG.md', 'packages/yd-ui/package.json' ]
+23 verbose updated @yideng/yd-cli
+24 verbose updated @yideng/hooks
+25 verbose updated @yideng/ui
+26 warn version Skipping working tree validation, proceed at your own risk
+27 silly independent for @yideng/yd-cli at /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-cli
+28 verbose getChangelogConfig using preset "conventional-changelog-angular"
+29 silly npa Result {
+29 silly npa   type: 'range',
+29 silly npa   registry: true,
+29 silly npa   where: undefined,
+29 silly npa   raw: 'conventional-changelog-angular',
+29 silly npa   name: 'conventional-changelog-angular',
+29 silly npa   escapedName: 'conventional-changelog-angular',
+29 silly npa   scope: undefined,
+29 silly npa   rawSpec: '*',
+29 silly npa   saveSpec: null,
+29 silly npa   fetchSpec: '*',
+29 silly npa   gitRange: undefined,
+29 silly npa   gitCommittish: undefined,
+29 silly npa   gitSubdir: undefined,
+29 silly npa   hosted: undefined
+29 silly npa }
+30 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+31 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+32 verbose independent increment 1.2.9 by patch
+33 silly independent for @yideng/hooks at /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
+34 verbose independent increment 1.2.9 by patch
+35 silly independent for @yideng/ui at /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-ui
+36 verbose independent increment 1.2.9 by patch
+37 info execute Skipping git tag/commit
+38 info execute Skipping git push
+39 info execute Skipping releases
+40 silly lifecycle No script for "preversion" in "yd-libs", continuing
+41 silly lifecycle No script for "preversion" in "@yideng/yd-cli", continuing
+42 silly lifecycle No script for "preversion" in "@yideng/ui", continuing
+43 verbose version @yideng/yd-cli has no lockfile. Skipping lockfile update.
+44 verbose version @yideng/ui has no lockfile. Skipping lockfile update.
+45 silly lifecycle No script for "version" in "@yideng/yd-cli", continuing
+46 silly independent for @yideng/yd-cli at /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-cli
+47 silly lifecycle No script for "version" in "@yideng/ui", continuing
+48 silly independent for @yideng/ui at /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-ui
+49 silly independent writing new entry: "## [1.2.10](https://github.com/lijinhai255/lerna-lib/compare/@yideng/ui@1.2.1...@yideng/ui@1.2.10) (2024-11-23)\n\n\n### Bug Fixes\n\n* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))\n\n\n\n"
+50 verbose independent wrote /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-ui/CHANGELOG.md
+51 silly lifecycle No script for "preversion" in "@yideng/hooks", continuing
+52 silly independent writing new entry: "## [1.2.10](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.10) (2024-11-23)\n\n\n### Bug Fixes\n\n* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))\n\n\n\n"
+53 verbose version @yideng/hooks has no lockfile. Skipping lockfile update.
+54 verbose independent wrote /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-cli/CHANGELOG.md
+55 silly lifecycle No script for "version" in "@yideng/hooks", continuing
+56 silly independent for @yideng/hooks at /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
+57 silly independent writing new entry: "## [1.2.10](https://github.com/lijinhai255/lerna-lib/compare/@yideng/hooks@1.2.1...@yideng/hooks@1.2.10) (2024-11-23)\n\n\n### Bug Fixes\n\n* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))\n\n\n\n"
+58 verbose independent wrote /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks/CHANGELOG.md
+59 silly lifecycle No script for "version" in "yd-libs", continuing
+60 verbose version Updating root pnpm-lock.yaml
+61 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+61 error Scope: all 4 workspace projects
+61 error Progress: resolved 1, reused 0, downloaded 0, added 0
+61 error /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks:
+61 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.10
+61 error
+61 error This error happened while installing a direct dependency of /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
+61 error
+61 error The latest release of @yideng/ui is "1.2.6".
+61 error
+61 error If you need the full list of all 4 published versions run "$ pnpm view @yideng/ui versions".
+61 error     at makeError (/Users/lijinhai/.config/yarn/global/node_modules/execa/lib/error.js:59:11)
+61 error     at handlePromise (/Users/lijinhai/.config/yarn/global/node_modules/execa/index.js:114:26)
+61 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.10](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.10) (2024-11-23)
+
+
+### Bug Fixes
+
+* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))
+
+
+
+
+
+## [1.2.9](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.9) (2024-11-23)
+
+
+### Bug Fixes
+
+* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))
+
+
+
+
+
+## [1.2.8](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.8) (2024-11-23)
+
+
+### Bug Fixes
+
+* update @yideng/ui version to ^1.2.6 ([8f4f91e](https://github.com/lijinhai255/lerna-lib/commit/8f4f91ecc5454d00838c7b9c2df06e0ebce86730))
+
+
+
+
+
 ## [1.2.7](https://github.com/lijinhai255/lerna-lib/compare/@yideng/yd-cli@1.2.1...@yideng/yd-cli@1.2.7) (2024-11-23)
 
 **Note:** Version bump only for package @yideng/yd-cli

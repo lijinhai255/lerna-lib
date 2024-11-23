@@ -22,5 +22,6 @@
     "@storybook/test": "^8.4.4",
     "prop-types": "^15.8.1",
     "storybook": "^8.4.4"
-  }
+  },
+  "gitHead": "fca203adb1a46693ab6d5e3fe2fe5e0c7aea40cd"
 }

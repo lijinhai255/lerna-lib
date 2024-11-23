@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@yideng/ui": "workspace:^"
-  }
+    "@yideng/ui": "^1.2.1"
+  },
+  "gitHead": "fca203adb1a46693ab6d5e3fe2fe5e0c7aea40cd"
 }

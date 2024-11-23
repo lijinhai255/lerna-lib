@@ -22,5 +22,6 @@
     "ora": "^4.0.4",
     "quicktype-core": "^23.0.78",
     "shelljs": "^0.8.5"
-  }
+  },
+  "gitHead": "fca203adb1a46693ab6d5e3fe2fe5e0c7aea40cd"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@yideng/ui",
-  "version": "1.2.17",
+  "version": "1.2.18",
   "main": "src/index.js",
   "scripts": {
     "test": "echo 2",

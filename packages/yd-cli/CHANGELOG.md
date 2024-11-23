@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.1 (2024-11-23)
+
+**Note:** Version bump only for package @yideng/yd-cli
+
+
+
+
+
 # [1.2.0](https://github.com/lgwebdream/yd-libs/compare/@yideng/yd-cli@1.1.0...@yideng/yd-cli@1.2.0) (2024-11-17)
 
 

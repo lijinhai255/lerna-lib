@@ -2,14 +2,15 @@
 69 error Scope: all 4 workspace projects
 69 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
 69 error Progress: resolved 1, reused 0, downloaded 0, added 0
+69 error Progress: resolved 7, reused 0, downloaded 0, added 0
 69 error /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks:
-69 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.6
+69 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @yideng/ui@^1.2.7
 69 error
 69 error This error happened while installing a direct dependency of /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
 69 error
-69 error The latest release of @yideng/ui is "1.2.5".
+69 error The latest release of @yideng/ui is "1.2.6".
 69 error
-69 error If you need the full list of all 3 published versions run "$ pnpm view @yideng/ui versions".
+69 error If you need the full list of all 4 published versions run "$ pnpm view @yideng/ui versions".
 69 error     at makeError (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
 69 error     at handlePromise (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
 69 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

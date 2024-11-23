@@ -1,0 +1,26 @@
+{
+  "name": "@yideng/ui",
+  "version": "1.2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo 2",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.2",
+    "@storybook/addon-essentials": "^8.4.4",
+    "@storybook/addon-interactions": "^8.4.4",
+    "@storybook/addon-onboarding": "^8.4.4",
+    "@storybook/blocks": "^8.4.4",
+    "@storybook/react": "^8.4.4",
+    "@storybook/react-vite": "^8.4.4",
+    "@storybook/test": "^8.4.4",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.4.4"
+  }
+}

@@ -42,8 +42,8 @@ importers:
   packages/yd-hooks:
     dependencies:
       '@yideng/ui':
-        specifier: workspace:^
-        version: link:../yd-ui
+        specifier: ^1.2.3
+        version: 1.2.3
 
   packages/yd-ui:
     devDependencies:
@@ -1127,6 +1127,9 @@ packages:
   '@yarnpkg/parsers@3.0.0-rc.46':
     resolution: {integrity: sha512-aiATs7pSutzda/rq8fnuPwTglyVwjM22bNnK2ZgjrpAjQHSSl3lztd2f9evst1W/qnC58DRz7T7QndUDumAR4Q==}
     engines: {node: '>=14.15.0'}
+
+  '@yideng/ui@1.2.3':
+    resolution: {integrity: sha512-6PM5QXvapJs1TP+U9KPinr3ma62nPA96htgCB4Xe2QK6bRe87WLE8jx98sKkcFbs7xTZ8+1h51M//eMmDpXV1Q==}
 
   '@zkochan/js-yaml@0.0.7':
     resolution: {integrity: sha512-nrUSn7hzt7J6JWgWGz78ZYI8wj+gdIJdk0Ynjpp8l+trkn58Uqsf6RYrYkEK+3X18EX+TNdtJI0WxAtc+L84SQ==}
@@ -4746,6 +4749,8 @@ snapshots:
     dependencies:
       js-yaml: 3.14.1
       tslib: 2.8.1
+
+  '@yideng/ui@1.2.3': {}
 
   '@zkochan/js-yaml@0.0.7':
     dependencies:

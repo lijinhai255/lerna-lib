@@ -1,15 +1,17 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error git@github.com: Permission denied (publickey).
-17 error fatal: Could not read from remote repository.
-17 error
-17 error Please make sure you have the correct access rights
-17 error and the repository exists.
-17 error error: Could not fetch origin
-17 error Fetching origin
-17 error     at makeError (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-17 error     at module.exports.sync (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
-17 error     at Object.execSync (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:1579:31)
-17 error     at updateRemote (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9202:18)
-17 error     at isBehindUpstream (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9192:3)
-17 error     at VersionCommand.initialize (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9486:57)
-17 error     at VersionCommand.runCommand (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:3296:36)
+69 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+69 error Scope: all 4 workspace projects
+69 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+69 error Progress: resolved 1, reused 0, downloaded 0, added 0
+69 error /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks:
+69 error  ERR_PNPM_FETCH_404  GET http://localhost:4873/@yideng%2Fui: Not Found - 404
+69 error
+69 error This error happened while installing a direct dependency of /Users/lijinhai/Desktop/my_project/new-libs/packages/yd-hooks
+69 error
+69 error @yideng/ui is not in the npm registry, or you have no permission to fetch it.
+69 error
+69 error An authorization header was used: Bearer ZmQ3[hidden]
+69 error     at makeError (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+69 error     at handlePromise (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+69 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+69 error     at async VersionCommand.updatePackageVersions (/Users/lijinhai/Desktop/my_project/new-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9866:11)
+69 error     at async Promise.all (index 0)
